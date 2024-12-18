@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "l//lV+kVSjjjMuGoL4sbPbJBZG9IuiZRJFQafo/iBve0f70g+WLkyhSnDMxcwkz9aB00rPPNnU9jFNSwb271jQ==",
+  "dgSpecHash": "Y+Zfyc0Z/T67OBN0gByzI0Hlc/wgtE6VMJknTn0u7vjvA29zRUIureKco/cwIgd6iv9/VtueyldcrCBd4L/+Mg==",
   "success": true,
   "projectFilePath": "C:\\Apps\\.NET Projects\\Tutorials\\LivestreamTest\\LivestreamTest\\LivestreamTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Steijn\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Steijn\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Steijn\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
     "C:\\Users\\Steijn\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Steijn\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Steijn\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
