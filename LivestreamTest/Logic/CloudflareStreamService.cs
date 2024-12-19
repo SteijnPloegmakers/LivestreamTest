@@ -1,3 +1,4 @@
+using System.Text.Json;
 using RestSharp;
 
 namespace LivestreamTest.Logic
@@ -24,7 +25,9 @@ namespace LivestreamTest.Logic
             var response = await _client.ExecuteAsync(request);
             if (response.IsSuccessful)
             {
-                return response.Content; // Contains RTMP URL and Key
+                var content = JsonDocument.Parse(response.Content);
+                var streamId = content.RootElement.GetProperty("result").GetProperty("uid").GetString();
+                return streamId; // Return the unique ID of the created live input
             }
             throw new Exception($"Failed to create live input: {response.Content}");
         }
